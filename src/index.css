@@ -1,0 +1,15 @@
+  @import 'https://js.arcgis.com/4.32/@arcgis/core/assets/esri/themes/light/main.css';
+
+html,
+      body {
+        margin: 0;
+        height: 100vh;
+      }
+
+      arcgis-map {
+        flex: 1;
+      }
+
+      arcgis-feature-table {
+        flex: 0.5;
+      }
